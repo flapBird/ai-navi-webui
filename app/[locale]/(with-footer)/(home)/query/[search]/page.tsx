@@ -63,7 +63,7 @@ export default async function Page({ params }: { params: { search?: string } }) 
         )}
       </section>
       <Separator className='mx-auto my-10 h-px w-4/5 bg-[#2C2D36] lg:my-16' />
-      <Faq />
+      {/* <Faq /> */}
       <ScrollToTop />
     </Suspense>
   );

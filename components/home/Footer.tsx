@@ -66,13 +66,13 @@ export default function Footer() {
   ];
 
   return (
-    <footer className='w-full bg-[#15141A]'>
+    <footer className='w-full bg-white'>
       <div className='mx-auto flex min-h-[251px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
         <div className='flex flex-col items-center lg:items-stretch'>
-          <p className='text-xl font-bold text-white lg:h-8 lg:text-[32px]'>{t('title')}</p>
-          <p className='text-xs'>{t('subTitle')}</p>
+          <p className='text-xl font-bold text-black lg:h-8 lg:text-[32px]'>{t('title')}</p>
+          <p className='text-xs text-black'>{t('subTitle')}</p>
         </div>
-        <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
+        <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10 text-black'>
           <div className='flex w-full flex-col gap-2'>
             <p className='font-bold'>{t('support')}</p>
             {SupportLinks.map((item) => (

@@ -28,7 +28,7 @@ export default function Page() {
         <h2 className='mt-[5px] text-sm font-bold lg:my-3'>{t('subTitle')}</h2>
         <SubmitForm />
       </div>
-      <Faq />
+      {/* <Faq /> */}
     </div>
   );
 }
