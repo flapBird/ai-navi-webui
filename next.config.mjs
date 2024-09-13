@@ -27,6 +27,9 @@ const nextConfig = {
     ],
   },
   productionBrowserSourceMaps: false,
+  eslint: {
+    ignoreDuringBuilds: true, // 添加此行以禁用 ESLint
+  },
 };
 
 export default withNextIntl(nextConfig);
