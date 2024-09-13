@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint --cache",
     "lint:fix": "eslint --fix .",
-    "prettier": "prettier --write .",
+    "prettier": "prettier --write ."
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
