@@ -10,7 +10,6 @@
     "lint": "next lint --cache",
     "lint:fix": "eslint --fix .",
     "prettier": "prettier --write .",
-    "prepare": "husky"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
