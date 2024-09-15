@@ -10,7 +10,7 @@ export default async function Layout({ children, params }: { children: React.Rea
   return (
     <div className='mx-auto w-full max-w-pc px-3 lg:px-0'>
       {children}
-      <Faq />
+      {/* <Faq /> */}
     </div>
   );
 }
